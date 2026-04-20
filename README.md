@@ -1,33 +1,42 @@
-# 👨‍💻 Roberto Kantovitz Lara
+# Hi, I'm Roberto Kantovitz Lara 👋
 
-Backend Developer focused on **Java and Spring Boot**
+Backend Developer focused on **Java** and **Spring Boot**.
 
-I build backend systems, REST APIs and integrations used in real business environments.  
-Currently focusing on **Java backend development, microservices architecture and scalable APIs**.
+I build backend systems, REST APIs, ERP integrations and scalable solutions used in real business environments.  
+Currently focused on **Java backend development**, **microservices architecture**, **secure APIs** and **backend best practices**.
 
 📍 Brazil  
-💼 Backend Developer  
+💼 Backend Developer
 
 ---
 
-# 🚀 Main Stack
+## 🚀 Core Stack
 
 ### Backend
 - Java
 - Spring Boot
 - Spring Data JPA
 - REST APIs
+- JWT Authentication
+- Swagger / OpenAPI
+
+### Architecture & Integration
+- Microservices
+- RabbitMQ
+- API Gateway
+- Service Discovery
+- ERP Integration
 
 ### Databases
-- MySQL
 - PostgreSQL
+- MySQL
 - MongoDB
+- IBM DB2
 
 ### Tools
 - Docker
 - Git
 - Linux
-- Swagger / OpenAPI
 
 ### Other Technologies
 - Python (FastAPI / Flask)
@@ -36,85 +45,78 @@ Currently focusing on **Java backend development, microservices architecture and
 
 ---
 
-# ⭐ Featured Projects
+## ⭐ Featured Projects
 
-## 🧩 Spring Microservices E-commerce
-Microservices architecture for an e-commerce platform.
+### 1. ERP Integration API (Spring Boot)
+Secure REST API built to integrate modern applications with a legacy ERP system using IBM DB2.
 
-Technologies used:
+**Highlights:**
+- REST API endpoints for internal data queries
+- API Key authentication
+- Swagger / OpenAPI documentation
+- Exception handling and secure access
+- Docker support
 
-- Java
-- Spring Boot
-- REST APIs
-- Docker
-- Microservices Architecture
-
-Services included:
-
-- Product Service
-- Order Service
-- Inventory Service
-
-🔗 Repository  
-https://github.com/betolara1/Spring-Microservices-Ecommerce
+**Repository:**  
+[API-Bartz-Moveis-ERP](https://github.com/betolara1/API-Bartz-Moveis-ERP)
 
 ---
 
-## 🏢 ERP Integration API (Spring Boot)
+### 2. Spring Microservices E-commerce
+Microservices-based e-commerce platform built with Spring Boot and distributed architecture concepts.
 
-Backend API developed for integration with a company ERP system.
+**Highlights:**
+- Product, Order, Inventory and Payment services
+- RabbitMQ asynchronous communication
+- API Gateway and Service Discovery
+- JWT authentication
+- PostgreSQL and Docker Compose
 
-Features:
-
-- REST API endpoints
-- Database integration
-- Secure API access
-- Used for internal data queries
-
-Technologies:
-
-- Java
-- Spring Boot
-- JPA / Hibernate
-- MySQL
+**Repository:**  
+[Spring-Microservices-Ecommerce](https://github.com/betolara1/Spring-Microservices-Ecommerce)
 
 ---
 
-## 🧠 Face Recognition System
+### 3. Recipe Management API
+REST API for recipe management with authentication, authorization and PostgreSQL persistence.
 
-Computer vision system for facial identification in real time.
+**Highlights:**
+- JWT-based authentication
+- Secure CRUD operations
+- PostgreSQL integration
+- Swagger documentation
+- Dockerized environment
 
-Technologies:
-
-- Python
-- OpenCV
-- Machine learning model training
-- Real-time detection
+**Repository:**  
+[LivrodeReceitas-JavaSpringBoot](https://github.com/betolara1/LivrodeReceitas-JavaSpringBoot)
 
 ---
 
-# 📊 Current Focus
+## 📚 Currently Focused On
 
-Currently studying and building projects with:
-
-- Java Spring Boot
+- Java and Spring Boot
 - Microservices Architecture
 - API Design
-- Docker
-- Backend best practices
+- Secure Backend Development
+- Docker and Scalable Deployments
+- Backend Best Practices
 
 ---
 
-# 📫 Contact
+## 📫 Contact
 
-📧 Email  
-robertokantovitzlara@hotmail.com
+- **Email:** [robertokantovitzlara@hotmail.com](mailto:robertokantovitzlara@hotmail.com)
+- **LinkedIn:** [linkedin.com/in/robertokantovitzlara](https://www.linkedin.com/in/robertokantovitzlara)
+- **Portfolio:** [portfolio.jsatecsistemas.com.br](https://portfolio.jsatecsistemas.com.br)
+- **GitHub:** [github.com/betolara1](https://github.com/betolara1)
 
-🔗 LinkedIn  
-https://linkedin.com/in/robertokantovitzlara
+---
 
-🌐 Portfolio  
-https://portfolio.jsatecsistemas.com.br
+## 📌 Pinned Repositories
 
-🐙 GitHub  
-https://github.com/betolara1
+Some of my main public projects are pinned below, with focus on:
+- Java backend development
+- Spring Boot APIs
+- Microservices
+- ERP integration
+- Security and architecture
