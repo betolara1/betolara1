@@ -125,10 +125,16 @@ API REST para gerenciamento de receitas culinárias, com autenticação, autoriz
 
 ---
 
-### 6. Promob Version Manager
-Ferramenta para gerenciar e alternar entre diferentes versões do Promob de forma instantânea e automatizada, eliminando um processo manual repetitivo.
+### 6. Panorama — Reconhecimento Facial (Python + OpenCV/Dlib)
+Sistema de autenticação biométrica facial desenvolvido para o projeto social Panorama, de Piracicaba, que oferece auxílio esportivo a crianças em vulnerabilidade social. Login rápido e seguro via reconhecimento facial em tempo real.
 
-**Repositório:** [Promob-Version-Manager](https://github.com/betolara1/Promob-Version-Manager)
+**Destaques:**
+- API Flask com reconhecimento facial via OpenCV/Dlib (HOG/CNN)
+- Integração com API externa em PHP
+- Testes automatizados (Pytest) e pipeline de CI/CD (GitHub Actions)
+- Containerização com Docker e Docker Compose
+
+**Repositório:** [panorama-reconhecimento-facial](https://github.com/betolara1/panorama-reconhecimento-facial)
 
 ---
 
