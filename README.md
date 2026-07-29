@@ -1,39 +1,52 @@
 # Olá, eu sou Roberto Kantovitz Lara 👋
 
-Desenvolvedor Backend & Analista de Dados, com foco em **Java**, **Python** e **SQL**.
+Desenvolvedor Full Stack, com foco em **Java**, **React/TypeScript** e **Python**.
 
-Construo sistemas backend, APIs REST, integrações com ERP e pipelines de dados usados em ambientes reais de negócio. Atualmente atuo entre desenvolvimento backend em Java, análise de dados com Python, extração de dados via SQL/ERP e automação de processos.
+Construo aplicações backend, APIs REST, aplicações desktop com React/Electron, e sistemas web completos usados em ambientes reais de negócio. Atualmente atuo entre desenvolvimento backend em Java com Spring Boot, frontend em React e TypeScript, e automação de processos com Python.
 
-📍 Camaquã, RS — Brasil
-💼 Desenvolvedor Backend & Analista de Dados
+📍 Camaquã, RS — Brasil  
+💼 Desenvolvedor Full Stack
 
 ---
 
 ## 🚀 Stack Principal
 
-### Dados & Análise
-- Python (Pandas, NumPy, PySpark)
-- SQL — PostgreSQL, MySQL, IBM DB2
-- Análise Exploratória de Dados (EDA)
-- Limpeza, transformação e automação de pipelines de dados
-- Dashboards e indicadores (KPIs)
-- Extração e análise de dados XML
+### Frontend & Desktop
+- React 18
+- TypeScript
+- JavaScript
+- Electron
+- Tailwind CSS / Radix UI
+- HTML5 / CSS3
 
 ### Backend
 - Java 21
 - Spring Boot
 - Spring Data JPA / Hibernate
 - Spring Security
+- PHP (arquitetura MVC)
 - APIs REST
 - Autenticação JWT
 - Swagger / OpenAPI
+
+### Mobile
+- React Native
+- Expo
 
 ### Arquitetura & Integração
 - Microsserviços
 - RabbitMQ
 - API Gateway
+- OpenFeign (integração declarativa de APIs)
 - Integração com ERP (IBM DB2)
 - Docker / Docker Compose
+
+### Dados & Automação
+- Python (Pandas, NumPy, PySpark)
+- SQL — PostgreSQL, MySQL, IBM DB2
+- Análise Exploratória de Dados (EDA)
+- Automação de processos e pipelines de dados
+- Extração e análise de dados XML
 
 ### Bancos de Dados
 - PostgreSQL
@@ -41,6 +54,12 @@ Construo sistemas backend, APIs REST, integrações com ERP e pipelines de dados
 - IBM DB2
 - H2
 - MongoDB
+
+### Testes & Qualidade
+- JUnit 5 / Mockito
+- Vitest
+- PHPUnit
+- GitHub Actions (CI/CD)
 
 ### Ferramentas
 - Docker
@@ -50,33 +69,49 @@ Construo sistemas backend, APIs REST, integrações com ERP e pipelines de dados
 
 ### Outras Tecnologias
 - Python (OpenCV — visão computacional)
-- PHP (Laravel)
-- TypeScript (básico)
+- C# (automação)
 - JavaFX (aplicações desktop)
 
 ---
 
 ## ⭐ Projetos em Destaque
 
-### 1. Bartz Analyser (Python — Análise de Dados)
-Aplicação desktop para análise automatizada de arquivos XML de pedidos, com identificação de inconsistências e geração de relatórios operacionais.
+### 1. Bartz Analyzer (Electron + React + TypeScript)
+
+Aplicação desktop de missão crítica para monitoramento, validação e auto-correção de arquivos XML de pedidos em tempo real, com dashboard interativo.
 
 **Destaques:**
-- Parsing e extração automatizada de dados XML
-- Validação de regras de negócio e detecção de inconsistências
-- Geração estruturada de relatórios
-- Automação de processo que substituiu revisão manual
+- Interface construída com React 18, TypeScript, Vite e Tailwind CSS
+- Comunicação via IPC entre processos Electron
+- Monitoramento de arquivos em tempo real com Chokidar
+- Testes automatizados com Vitest
+- Sistema de atualização automática (OTA)
 
-**Repositório:** [Bartz-Analyser](https://github.com/betolara1/Bartz-Analyser)
+**Repositório:** [Bartz-Analyzer](https://github.com/betolara1/Bartz-Analyzer)
 
 ---
 
-### 2. API ERP – Bartz Móveis (Spring Boot + IBM DB2)
-API REST segura construída para integrar aplicações modernas a um sistema ERP legado usando IBM DB2, fornecendo acesso padronizado a dados para análises e dashboards internos.
+### 2. Pet Tinder (PHP + MySQL + JavaScript)
+
+Web app completo de matchmaking para adoção de pets, com engine de swipe em tempo real.
 
 **Destaques:**
-- Endpoints REST para consultas internas e analytics
-- Autenticação via API Key
+- Chat em tempo real via Long Polling
+- Geolocalização (Geolocation API, Nominatim)
+- PWA com Service Workers
+- CI/CD automatizado via GitHub Actions
+
+**Repositório:** [Pet-Tinder](https://github.com/betolara1/Pet-Tinder)
+
+---
+
+### 3. API Bartz Móveis ERP (Java + Spring Boot + IBM DB2)
+
+API REST segura construída para integrar aplicações modernas a um sistema ERP legado, atuando como camada anticorrupção.
+
+**Destaques:**
+- Autenticação JWT stateless
+- Consultas hierárquicas otimizadas em IBM DB2
 - Documentação Swagger / OpenAPI
 - Suporte a Docker
 
@@ -84,68 +119,74 @@ API REST segura construída para integrar aplicações modernas a um sistema ERP
 
 ---
 
-### 3. Spring Microservices E-commerce *(projeto de estudo)*
-Plataforma de e-commerce baseada em microsserviços, construída com Spring Boot e conceitos de arquitetura distribuída.
+### 4. Pet Adopt (PHP + MySQL + Bootstrap 5)
+
+Plataforma de benefícios e recompensas para clínicas veterinárias e pet shops.
+
+**Destaques:**
+- Motor de prevenção de fraudes para resgate de vouchers
+- Testes automatizados via PHPUnit
+- Documentação Swagger
+
+**Repositório:** [Pet-Adopt](https://github.com/betolara1/Pet-Adopt)
+
+---
+
+### 5. Bartz Base Técnica (React + TypeScript)
+
+Catálogo técnico institucional com testes automatizados e integração contínua.
+
+**Destaques:**
+- React, TypeScript e Vite
+- Testes automatizados com Vitest
+- CI/CD configurado em GitHub Actions
+
+**Repositório:** [Bartz-Base-Tecnica](https://github.com/betolara1/Bartz-Base-Tecnica)
+
+---
+
+### 6. Spring Microservices E-commerce (Java + Spring Boot)
+
+Plataforma de e-commerce baseada em microsserviços, com arquitetura distribuída.
 
 **Destaques:**
 - Serviços de Produto, Pedido, Estoque e Pagamento
 - Comunicação assíncrona com RabbitMQ
 - API Gateway e Service Discovery
-- Autenticação JWT
-- PostgreSQL e Docker Compose
+- Autenticação JWT, PostgreSQL e Docker Compose
 
 **Repositório:** [Spring-Microservices-Ecommerce](https://github.com/betolara1/Spring-Microservices-Ecommerce)
 
 ---
 
-### 4. Bartz Construção API
-API REST para gerenciamento de catálogo de produtos, consumida diretamente por aplicações frontend.
+### 7. Solicitações Prefeituras (PHP + MySQL)
+
+Portal de gestão pública para abertura de solicitações de serviços, com engine de DDL automática.
 
 **Destaques:**
-- CRUD de produtos com Spring Data JPA
-- Autenticação JWT
-- PostgreSQL
-- Docker
+- Engine de DDL dinâmica para gestão visual de schema de banco de dados
+- Mapas de calor com geolocalização (Leaflet.js)
+- Dashboards analíticos (Chart.js)
 
-**Repositório:** [Bartz-Construcao-API](https://github.com/betolara1/Bartz-Construcao-API)
+**Repositório:** [Solicitacoes-Prefeituras](https://github.com/betolara1/Solicitacoes-Prefeituras)
 
 ---
 
-### 5. Recipe Management API
-API REST para gerenciamento de receitas culinárias, com autenticação, autorização e persistência em PostgreSQL.
+### 8. Prefeitura Mobile (React Native + Expo + TypeScript)
 
-**Destaques:**
-- Autenticação baseada em JWT
-- Operações CRUD seguras
-- Integração com PostgreSQL
-- Documentação Swagger
-- Ambiente Dockerizado
+Aplicativo mobile para a Prefeitura de São Paulo, integrado a uma API backend em PHP.
 
-**Repositório:** [LivrodeReceitas-JavaSpringBoot](https://github.com/betolara1/LivrodeReceitas-JavaSpringBoot)
-
----
-
-### 6. Panorama — Reconhecimento Facial (Python + OpenCV/Dlib)
-Sistema de autenticação biométrica facial desenvolvido para o projeto social Panorama, de Piracicaba, que oferece auxílio esportivo a crianças em vulnerabilidade social. Login rápido e seguro via reconhecimento facial em tempo real.
-
-**Destaques:**
-- API Flask com reconhecimento facial via OpenCV/Dlib (HOG/CNN)
-- Integração com API externa em PHP
-- Testes automatizados (Pytest) e pipeline de CI/CD (GitHub Actions)
-- Containerização com Docker e Docker Compose
-
-**Repositório:** [panorama-reconhecimento-facial](https://github.com/betolara1/panorama-reconhecimento-facial)
+**Repositório:** [prefeitura_mobile_usuario](https://github.com/betolara1/prefeitura_mobile_usuario)
 
 ---
 
 ## 📚 Focado Atualmente Em
 
-- Análise de dados com Python (Pandas, NumPy, PySpark)
-- SQL e extração de dados de ERP, automação de pipelines
-- Java e Spring Boot
-- Arquitetura de Microsserviços
-- Design de APIs e desenvolvimento backend seguro
-- Docker e deploys escaláveis
+- React e TypeScript para aplicações web e desktop
+- Java e Spring Boot para backend e APIs REST
+- Arquitetura de microsserviços e integração de sistemas
+- Automação de processos com Python
+- Testes automatizados e CI/CD
 
 ---
 
@@ -162,9 +203,8 @@ Sistema de autenticação biométrica facial desenvolvido para o projeto social 
 
 Alguns dos meus principais projetos públicos estão fixados abaixo, com foco em:
 
-- Análise de dados e automação em Python
-- Desenvolvimento backend em Java
-- APIs com Spring Boot
-- Microsserviços
-- Integração com ERP
-- Segurança e arquitetura
+- Desenvolvimento Full Stack (React, TypeScript, Electron)
+- Backend em Java com Spring Boot
+- APIs REST e integração com ERP
+- Automação e análise de dados em Python
+- Arquitetura de microsserviços
